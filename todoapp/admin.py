@@ -4,3 +4,7 @@ from django.contrib import admin
 from todoapp.models import Categoria
 
 admin.site.register(Categoria)
+
+from todoapp.models import User, Tarea
+admin.site.register(User)
+admin.site.register(Tarea)
